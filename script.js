@@ -1266,6 +1266,8 @@ $(document).ready(function() {
     function loadGraphStats() {
         /* USING CHART.JS LIBRARY FOR DESIGNING THE STATS/GENERATED REPORT ONLY */
         // Get the table that contains the data for the chart
+        $("#chartBar").empty();
+        $("#chartBar").append('<canvas id="barChart"></canvas>');
         let table = document.querySelector("#v-tabs-report table");
 
         // Select all the rows in the table body
