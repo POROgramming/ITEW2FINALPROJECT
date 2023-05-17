@@ -77,7 +77,7 @@ $(document).ready(function() {
         $(".hotelRooms").fadeIn(1000);
         scrollToTop();
     });
-
+    
     /* Log In and Sign Up */
     $("#btnLogIn").click(function() {
         $(".profilePage").hide();
@@ -85,6 +85,8 @@ $(document).ready(function() {
         $(".hotelRooms").fadeOut(500);
         $(".signUpPage").fadeOut(500);
         $(".logInPage").fadeIn(1000);
+        $(".contactUsPage").fadeOut(500);
+        $(".aboutUsPage").fadeOut(500);
         $(".changePasswordPage").fadeOut(500);
         setDocTitle("ScyteX Hotel Reservations | Log In");
         scrollToTop();
