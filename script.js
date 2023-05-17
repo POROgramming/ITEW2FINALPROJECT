@@ -464,7 +464,7 @@ $(document).ready(function() {
         packageName = "Jr. Suite",
         roomNum = "Room 101",
         // Set the reservation fee and payment method
-        reservationFee = "P150 - Reservation Fee",
+        reservationFee = "P150.00 - Reservation Fee",
         paymentMethod = "Credit Card",
         // Find the index of the package in the storagePackages array
         packageIndex = storagePackages.findIndex((package => package.roomNum === roomNum));
